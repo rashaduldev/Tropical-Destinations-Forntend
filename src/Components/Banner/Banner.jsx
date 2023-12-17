@@ -1,22 +1,24 @@
+import img from "../../../public/assets/Group 171.png";
+
 const Banner = () => {
   return (
     <div>
       <div className="hero min-h-screen bg-[#f8f1d340]">
-        <div className="hero-content flex flex-col lg:flex-row-reverse">
-        <div className="flex-1 bg-red-600">
-        <img
-            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-            className="max-w-sm rounded-lg shadow-2xl mx-auto"
-          />
-        </div>
-          <div className="flex-1 bg-yellow-400">
-            <h1 className="text-5xl font-bold">Box Office News!</h1>
+        <div className="hero-content flex flex-col lg:flex-row-reverse items-center">
+          <div className="flex-1 lg:pb-10">
+            <img src={img} className="max-w-sm rounded-lg mx-auto" />
+          </div>
+          <div className="flex-1 text-[20px] lg:pl-6 lg:text-left text-center">
+            <p>Discover the beauty of the tropics</p>
+            <h1 className="text-5xl lg:text-7xl font-bold">
+              Tropical <br />
+              Destinations <br />
+               For Student
+            </h1>
             <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+            Lorem ipsum dolor sit amet consectetur. Sit mattis donec mi bibendum integer rutrum nisi. A nec nisl vitae 
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn hover:bg-[#F27A44] rounded-full uppercase hover:text-white">Sign Up</button>
           </div>
         </div>
       </div>

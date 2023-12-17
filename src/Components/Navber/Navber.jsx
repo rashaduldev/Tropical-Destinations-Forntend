@@ -19,7 +19,7 @@ const Navber = () => {
     </>
   );
   return (
-    <div className="mx-10">
+    <div className="mx-10 lg:pr-14">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
