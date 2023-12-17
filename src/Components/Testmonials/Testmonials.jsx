@@ -10,19 +10,19 @@ const Testmonials = () => {
                 <div>
                     <img className='mx-auto' src={img1} alt="" />
                     <p className='pt-3'>Corey Korsgaard</p>
-                    <div className="divider mx-28"></div>
+                    <div className="divider mx-7 lg:mx-28"></div>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
                 <div>
                 <img className='mx-auto' src={img2} alt="" />
                     <p className='pt-3'>Corey Korsgaard</p>
-                    <div className="divider mx-28"></div>
+                    <div className="divider mx-7 lg:mx-28"></div>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
                 <div>
                 <img className='mx-auto' src={img3} alt="" />
                     <p className='pt-3'>Corey Korsgaard</p>
-                    <div className="divider mx-28"></div>
+                    <div className="divider mx-7 lg:mx-28"></div>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
             </div>
