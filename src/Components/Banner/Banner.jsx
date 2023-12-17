@@ -10,7 +10,7 @@ const Banner = () => {
           </div>
           <div className="flex-1 text-[20px] lg:pl-6 lg:text-left text-center">
             <p>Discover the beauty of the tropics</p>
-            <h1 className="text-5xl lg:text-7xl font-bold">
+            <h1 className="text-5xl lg:text-7xl font-bold py-3">
               Tropical <br />
               Destinations <br />
                For Student

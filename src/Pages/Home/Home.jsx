@@ -1,5 +1,6 @@
 import Banner from "../../Components/Banner/Banner";
 import Navber from "../../Components/Navber/Navber";
+import Tropical from "../../Components/Tropical/Tropical";
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Navber></Navber>
             <Banner></Banner>
+            <Tropical></Tropical>
         </div>
     );
 };
