@@ -2,10 +2,19 @@ const Navber = () => {
   const navlinks = (
     <>
       <li>
-        <a>Item 1</a>
+        <a>Home</a>
       </li>
       <li>
-        <a>Item 3</a>
+        <a>About</a>
+      </li>
+      <li>
+        <a>Schedules</a>
+      </li>
+      <li>
+        <a>Membership</a>
+      </li>
+      <li>
+        <a>Pricing</a>
       </li>
     </>
   );
@@ -41,9 +50,9 @@ const Navber = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navlinks}</ul>
         </div>
-        <div className="navbar-end">
-          <button className="btn hover:bg-[#F27A44]">ok</button>
-          
+        <div className="navbar-end flex gap-4">
+          <button className="btn hover:bg-[#F27A44] rounded-full">Offers</button>
+          <button className="btn hover:bg-[#F27A44] rounded-full">Courses</button>
         </div>
       </div>
     </div>
