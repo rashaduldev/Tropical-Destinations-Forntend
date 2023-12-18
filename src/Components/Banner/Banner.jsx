@@ -9,8 +9,8 @@ import img6 from "../../../public/assets/Banner/Subtract (2).png";
 
 const Banner = () => {
   return (
-    <div>
-      <div className="hero min-h-screen bg-[#f8f1d388]">
+    <div className="bg-[#f8f1d388] my-5">
+      <div className="hero min-h-screen ">
         <div className="hero-content flex flex-col lg:flex-row-reverse items-center">
           <div className="flex-1 lg:pb-10">
             <img src={img} className="max-w-sm rounded-lg mx-auto" />
@@ -26,7 +26,7 @@ const Banner = () => {
             <p className="py-6">
             Lorem ipsum dolor sit amet consectetur. Sit mattis donec mi bibendum integer rutrum nisi. A nec nisl vitae 
             </p>
-            <button className="btn hover:bg-[#F27A44] rounded-full uppercase hover:text-white">Sign Up</button>
+            <button className="btn hover:bg-[#F27A44] rounded-full uppercase hover:text-white" style={{ border:'1px solid gray' }}>Sign Up</button>
           </div>
           <div className="hidden lg:block">
            <div className="absolute left-80 -bottom-12"> <img src={img2} alt="" /></div>

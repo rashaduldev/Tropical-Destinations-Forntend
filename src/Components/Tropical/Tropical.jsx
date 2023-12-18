@@ -51,7 +51,7 @@ const Tropical = () => {
             <li>tortor id euismod habitant</li>
             <li>Sed suspendisse id in ultrices</li>
           </ul>
-          <button className="btn hover:bg-[#F27A44] rounded-full uppercase hover:text-white mt-7 px-9">Explore More</button>
+          <button className="btn hover:bg-[#F27A44] rounded-full uppercase hover:text-white mt-7 px-9"  style={{ border:'1px solid gray' }}>Explore More</button>
         </div>
       </div>
       <div className="absolute top-[25%] left-[50%]"><img className="w-8" src={img4} alt="" /></div>
