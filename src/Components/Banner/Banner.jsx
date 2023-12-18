@@ -28,7 +28,7 @@ const Banner = () => {
             </p>
             <button className="btn hover:bg-[#F27A44] rounded-full uppercase hover:text-white">Sign Up</button>
           </div>
-          <div>
+          <div className="hidden lg:block">
            <div className="absolute left-80 -bottom-12"> <img src={img2} alt="" /></div>
             <div className="absolute right-[490px] top-40"><img src={img3} alt="" /></div>
             <div className="absolute right-[50%] w-5"><img src={img4} alt="" /></div>

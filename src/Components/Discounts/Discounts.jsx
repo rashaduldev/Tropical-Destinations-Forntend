@@ -1,4 +1,5 @@
 import img from '../../../public/assets/Mask group.png'
+import img1 from "../../../public/assets/Banner/Ellipse 46.png";
 const Discounts = () => {
   return (
     <div>
@@ -11,7 +12,8 @@ const Discounts = () => {
           />
          </div>
           <div className="flex-1 px-10 lg:min-w-max text-center lg:text-left">
-            <p>Get 20% off for student</p>
+            <img className='w-8 my-4' src={img1} alt="" />
+            <p className='my-2'>Get 20% off for student</p>
             <h1 className="text-xl lg:text-[40px] font-bold">Student discounts available.</h1>
             <p className="pb-6 text-2xl">
             Get ready for some fun in the sun!

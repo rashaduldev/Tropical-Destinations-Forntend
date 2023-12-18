@@ -2,11 +2,12 @@ import img from "../../../public/assets/Subtract.png";
 import img1 from "../../../public/assets/avatar.png";
 import img2 from "../../../public/assets/avatar (1).png";
 import img3 from "../../../public/assets/avatar (2).png";
+import img4 from "../../../public/assets/Banner/Ellipse 46.png";
 
 
 const Tropical = () => {
   return (
-    <div className="py-10">
+    <div className="py-10 relative">
       <div className="flex justify-center lg:justify-end mx-10">
         <img className="h-32 w-32" src={img} alt="" />
       </div>
@@ -53,6 +54,7 @@ const Tropical = () => {
           <button className="btn hover:bg-[#F27A44] rounded-full uppercase hover:text-white mt-7 px-9">Explore More</button>
         </div>
       </div>
+      <div className="absolute top-[25%] left-[50%]"><img className="w-8" src={img4} alt="" /></div>
     </div>
   );
 };

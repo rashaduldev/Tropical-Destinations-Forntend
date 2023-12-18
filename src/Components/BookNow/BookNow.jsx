@@ -2,6 +2,7 @@ import { FaMinus, FaPlus } from "react-icons/fa";
 import img from "../../../public/assets/Group 167.png";
 import { useState } from "react";
 import DatePicker from "react-datepicker";
+import img1 from "../../../public/assets/Banner/Subtract (1).png";
 
 import "react-datepicker/dist/react-datepicker.css";
 import "react-datepicker/dist/react-datepicker.css";
@@ -57,16 +58,16 @@ const BookNow = () => {
   };
 
   return (
-    <div>
+    <div className="relative">
       <div className="hero min-h-screen">
-        <div className="hero-content flex flex-col lg:flex-row gap-36">
+        <div className="hero-content flex flex-col lg:flex-row gap-10 lg:gap-36">
           <div className="flex-1">
             <img
               src={img}
-              className="lg:max-w-sm max-w-xs rounded-lg mx-auto"
+              className="lg:max-w-sm rounded-lg mx-auto"
             />
           </div>
-          <div className="flex-1 min-w-min shadow-2xl p-5">
+          <div className="flex-1 lg:min-w-min shadow-2xl lg:p-5">
             <h1 className="text-center lg:text-left text-4xl font-bold">
               Book Now
             </h1>
@@ -171,6 +172,9 @@ const BookNow = () => {
             </form>
           </div>
         </div>
+      </div>
+      <div className="absolute left-[40%] top-[10%] opacity-5 hidden lg:block">
+        <img className="w-20" src={img1} alt="" />
       </div>
     </div>
   );
