@@ -1,6 +1,9 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import img1 from '../../../public/assets/card-image.png'
+import img2 from '../../../public/assets/card-image-1.png'
+import img3 from '../../../public/assets/card-image-2.png'
+import img4 from '../../../public/assets/card-image-3.png'
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -8,6 +11,8 @@ import "swiper/css/navigation";
 import "./styles.css";
 import { Pagination, Navigation } from "swiper/modules";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
+import { BsThreeDots } from "react-icons/bs";
+
 
 const Destination = () => {
   return (
@@ -26,45 +31,81 @@ const Destination = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="card w-80 bg-base-100 shadow-xl">
-              <figure>
+            <div className="card w-80 h-full bg-base-100 shadow-xl">
+              <figure  className="h-full">
                 <img
-                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                  alt="Shoes"
+               
+                  src={img1}
+                  alt="Harvard University"
                 />
               </figure>
-              <div className="card-body">
-                <h2 className="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Buy Now</button>
-                </div>
+              <div className="">
+                <h2 className="card-title">Harvard University</h2>
+               <div className="flex items-center justify-between mx-5">
+               <p className="text-[16px]">Cambridge, Massachusetts, UK</p>
+                <BsThreeDots />
+               </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className="card w-80 bg-base-100 shadow-xl">
-              <figure>
+            <div className="card w-80 h-full bg-base-100 shadow-xl">
+              <figure  className="h-full">
                 <img
-                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                  alt="Shoes"
+               
+                  src={img2}
+                  alt="Harvard University"
                 />
               </figure>
-              <div className="card-body">
-                <h2 className="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Buy Now</button>
-                </div>
+              <div className="">
+                <h2 className="card-title">Oxford University</h2>
+               <div className="flex items-center justify-between mx-5">
+               <p className="text-[16px]">Oxford, England</p>
+                <BsThreeDots />
+               </div>
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
+          <SwiperSlide>
+            <div className="card w-80 h-full bg-base-100 shadow-xl">
+              <figure  className="h-full">
+                <img
+               
+                  src={img3}
+                  alt="Harvard University"
+                />
+              </figure>
+              <div className="">
+                <h2 className="card-title">Stanford University</h2>
+               <div className="flex items-center justify-between mx-5">
+               <p className="text-[16px]">Stanford, California</p>
+                <BsThreeDots />
+               </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="card w-80 h-full bg-base-100 shadow-xl">
+              <figure  className="h-full">
+                <img
+               
+                  src={img4}
+                  alt="Harvard University"
+                />
+              </figure>
+              <div className="">
+                <h2 className="card-title">Nanyang Technological University</h2>
+               <div className="flex items-center justify-between mx-5">
+               <p className="text-[16px]">Nanyang Ave, Singapura</p>
+                <BsThreeDots />
+               </div>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
         <div className="flex items-center justify-center text-xl gap-5">
         <FaChevronLeft />
-           <h1> 1/2</h1>
+           <h1> 1/4</h1>
            <FaChevronRight />
         </div>
       </div>

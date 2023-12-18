@@ -35,7 +35,7 @@ const BookNow = () => {
   const handleBookNow = (e) => {
     e.preventDefault();
     console.log("ok");
-    const form = e.target;
+    // const form = e.target;
 
     Swal.fire({
       title: "Are you sure?",
