@@ -3,7 +3,7 @@ import img from "../../../public/assets/Group 171.png";
 const Banner = () => {
   return (
     <div>
-      <div className="hero min-h-screen bg-[#f8f1d340]">
+      <div className="hero min-h-screen bg-[#f8f1d388]">
         <div className="hero-content flex flex-col lg:flex-row-reverse items-center">
           <div className="flex-1 lg:pb-10">
             <img src={img} className="max-w-sm rounded-lg mx-auto" />
